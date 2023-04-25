@@ -1,0 +1,8 @@
+FROM maven:3.8.6-openjdk-8
+
+WORKDIR /home/app
+
+# Expose the ports for the application and remote debugging
+EXPOSE 8091 5005
+
+ENTRYPOINT [ "bash" ]
