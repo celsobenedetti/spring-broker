@@ -1,2 +1,6 @@
 server:
   port: 8091
+
+services:
+  catshop:
+    url: http://catshop-service:8090
